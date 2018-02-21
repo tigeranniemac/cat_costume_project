@@ -2,6 +2,19 @@ body {
   margin: 0;
 }
 
+nav h1{
+  font: PT Sans Narrow Bold 1.5em;
+  color: #323232;
+  display:inline-block;
+}
+
+nav p{
+  font: PT Sans Regular .9em;
+  color: #323232;
+  display:inline-block;
+  text-align: right;
+}
+
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
