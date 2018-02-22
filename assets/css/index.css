@@ -5,14 +5,17 @@ body {
 nav h1{
   font: PT Sans Narrow Bold 1.5em;
   color: #323232;
-  display:inline-block;
+  display: inline-block;
+  width: 75%;
+  margin-left: 15px;
 }
 
 nav p{
   font: PT Sans Regular .9em;
   color: #323232;
-  display:inline-block;
+  display: inline;
   text-align: right;
+  padding: 15px;
 }
 
 
