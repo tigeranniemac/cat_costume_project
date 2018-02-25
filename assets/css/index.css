@@ -1,5 +1,10 @@
 body {
   margin: 0;
+
+}
+
+nav{
+
 }
 
 h1{
@@ -26,6 +31,10 @@ nav p{
   font: .9em 'PT Sans', sans-serif;
 }
 
+#batcatimg{
+  width: auto;
+  height: auto;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
