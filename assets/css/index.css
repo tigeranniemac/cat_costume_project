@@ -2,20 +2,28 @@ body {
   margin: 0;
 }
 
-nav h1{
-  font: PT Sans Narrow Bold 1.5em;
+h1{
+  font: Bold 1.875em 'PT Sans Narrow', sans-serif;
   color: #323232;
+}
+
+nav h1{
   display: inline-block;
   width: 75%;
   margin-left: 15px;
+  font-size: 1.5em;
+}
+
+p{
+  font: .875em 'PT Serif', serif;
+  color: #323232;
 }
 
 nav p{
-  font: PT Sans Regular .9em;
-  color: #323232;
   display: inline;
   text-align: right;
   padding: 15px;
+  font: .9em 'PT Sans', sans-serif;
 }
 
 
