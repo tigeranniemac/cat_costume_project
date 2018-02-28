@@ -15,6 +15,16 @@ h1{
   margin-bottom: 45px;
 }
 
+h2{
+  font: Bold 1.5em 'PT Sans Narrow', sans-serif;
+}
+
+h3{
+  font: 1em 'PT Serif', serif;
+  line-height: 2em;
+  text-align: center;
+}
+
 nav h1{
   display: inline-block;
   width: 75%;
@@ -43,18 +53,17 @@ nav p{
   height: auto;
 }
 
-h3{
-  font: 1em 'PT Sans', sans-serif;
-  line-height: 2em;
-  text-align: center;
-}
-
 .basicinfo{
   width: 50%;
   margin: auto;
-  display: inline-block;
 }
 
+.aboutbox{
+  width:  400px;
+  display: inline-block;
+  text-align: center;
+  background-color: #eeeeee;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
