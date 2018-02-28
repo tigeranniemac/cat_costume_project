@@ -49,6 +49,13 @@ h3{
   text-align: center;
 }
 
+.basicinfo{
+  width: 50%;
+  margin: auto;
+  display: inline-block;
+}
+
+
 /* On devices wider than 660px */
 @media(min-width: 660px) {
 }
