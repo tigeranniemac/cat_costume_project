@@ -10,30 +10,43 @@ nav{
 h1{
   font: Bold 1.875em 'PT Sans Narrow', sans-serif;
   color: #323232;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 45px;
 }
 
 nav h1{
   display: inline-block;
   width: 75%;
-  margin-left: 15px;
+  text-align: left;
+  margin: 25px 15px 25px 15px;
   font-size: 1.5em;
 }
 
 p{
   font: .875em 'PT Serif', serif;
   color: #323232;
+  line-height: 1.75em;
 }
 
 nav p{
   display: inline;
   text-align: right;
   padding: 15px;
+  margin: 10px;
   font: .9em 'PT Sans', sans-serif;
+  line-height: 0;
 }
 
-#batcatimg{
-  width: auto;
+.batcatimg{
+  width: 100%;
   height: auto;
+}
+
+h3{
+  font: 1em 'PT Sans', sans-serif;
+  line-height: 2em;
+  text-align: center;
 }
 
 /* On devices wider than 660px */
