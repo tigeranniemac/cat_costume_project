@@ -17,6 +17,7 @@ h1{
 
 h2{
   font: Bold 1.5em 'PT Sans Narrow', sans-serif;
+  color: #00897f;
 }
 
 h3{
@@ -37,6 +38,8 @@ p{
   font: .875em 'PT Serif', serif;
   color: #323232;
   line-height: 1.75em;
+  padding: 0 30px 30px 30px;
+  text-align: left;
 }
 
 nav p{
@@ -56,14 +59,32 @@ nav p{
 .basicinfo{
   width: 50%;
   margin: auto;
+  margin-bottom: 80px;
 }
 
 .aboutbox{
-  width:  400px;
-  display: inline-block;
   text-align: center;
+}
+
+.aboutbox h2{
+  margin-bottom: 25px;
+}
+
+.aboutbox div{
+  width:  300px;
+  display: inline-block;
+  background-color: #eeeeee;
+  margin: 0 30px;
+}
+
+.bussinfo{
   background-color: #eeeeee;
 }
+
+.infobox{
+  text-align: center;
+}
+
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
