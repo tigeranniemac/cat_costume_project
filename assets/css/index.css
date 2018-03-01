@@ -11,13 +11,13 @@ h1{
   font: Bold 1.875em 'PT Sans Narrow', sans-serif;
   color: #323232;
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 45px;
+  padding-bottom: 25px;
 }
 
 h2{
   font: Bold 1.5em 'PT Sans Narrow', sans-serif;
   color: #00897f;
+  text-transform: uppercase;
 }
 
 h3{
@@ -30,7 +30,7 @@ nav h1{
   display: inline-block;
   width: 75%;
   text-align: left;
-  margin: 25px 15px 25px 15px;
+  padding: 5px 15px 5px 15px;
   font-size: 1.5em;
 }
 
@@ -54,6 +54,7 @@ nav p{
 .batcatimg{
   width: 100%;
   height: auto;
+  padding-bottom: 60px;
 }
 
 .basicinfo{
@@ -62,8 +63,14 @@ nav p{
   margin-bottom: 80px;
 }
 
+.basicinfo h3{
+  text-align: left;
+  margin: 0;
+}
+
 .aboutbox{
   text-align: center;
+  padding-bottom: 80px;
 }
 
 .aboutbox h2{
@@ -77,14 +84,63 @@ nav p{
   margin: 0 30px;
 }
 
-.bussinfo{
-  background-color: #eeeeee;
-}
 
-.infobox{
+.kittyimg{
+  display: inline;
   text-align: center;
 }
 
+.roundkitty img{
+  border-radius: 50%;
+  padding: 27.5px 27.5px;
+}
+
+.bussinfo{
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.bussinfo h1{
+  padding-top: 80px;
+  margin-top: 80px;
+  margin-bottom: 20;
+}
+
+.bussinfo div{
+  padding-bottom: 80px;
+}
+
+.busibox div{
+  width: 250px;
+  display: inline-block;
+  background-color: white;
+  padding: 30px;
+  margin: 0 30px 0 30px;
+}
+
+.busibox h2{
+  margin: 0;
+}
+
+.busibox h3{
+  text-align: left;
+}
+
+.mapimg{
+  width: 100%;
+  height: auto;
+}
+
+footer{
+  background-color: #00897f;
+}
+
+footer h1{
+  font-size: 1.5em;
+  color: white;
+  margin: 0;
+  padding: 47px 47px;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
