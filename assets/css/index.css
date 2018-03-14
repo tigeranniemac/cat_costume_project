@@ -155,6 +155,16 @@ footer h1{
   padding: 47px 47px;
 }
 
+/* On devices less than 500px */
+@media screen and (max-width: 500px){
+    .cat-1{
+      display: none;
+    }
+    .cat-2{
+      display: none;
+    }
+}
+
 /* On devices wider than 660px */
 @media(min-width: 660px) {
 }
