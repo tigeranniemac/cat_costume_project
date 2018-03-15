@@ -157,8 +157,12 @@ footer h1{
 
 /* On devices less than 600px */
 @media screen and (max-width: 600px){
-    .aboutbox {
-      background-color: #eeeeee;
+    nav p{
+      display: none;
+    }
+    nav h1{
+      text-align: center;
+      width: 100%;
     }
     .cat-1{
       display: none;
@@ -166,12 +170,8 @@ footer h1{
     .cat-2{
       display: none;
     }
-    nav p{
-      display: none;
-    }
-    nav h1{
-      text-align: center;
-      width: 100%;
+    .aboutbox {
+      background-color: #eeeeee;
     }
 }
 
