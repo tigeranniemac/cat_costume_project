@@ -155,13 +155,23 @@ footer h1{
   padding: 47px 47px;
 }
 
-/* On devices less than 500px */
-@media screen and (max-width: 500px){
+/* On devices less than 600px */
+@media screen and (max-width: 600px){
+    .aboutbox {
+      background-color: #eeeeee;
+    }
     .cat-1{
       display: none;
     }
     .cat-2{
       display: none;
+    }
+    nav p{
+      display: none;
+    }
+    nav h1{
+      text-align: center;
+      width: 100%;
     }
 }
 
