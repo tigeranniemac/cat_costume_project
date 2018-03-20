@@ -51,10 +51,13 @@ nav p{
   line-height: 0;
 }
 
-.batcatimg{
+.batcatimg {
   width: 100%;
   height: auto;
-  padding-bottom: 60px;
+}
+
+.batcatimg.mobile {
+   display: none;
 }
 
 .basicinfo{
@@ -155,12 +158,23 @@ footer h1{
   padding: 47px 47px;
 }
 
+.text-align-left {
+  text-align: left;
+}
+.text-align-right {
+  text-align: right;
+}
+
 /* On devices less than 600px */
-@media screen and (max-width: 600px){
+@media (max-width: 600px){
     nav p{
       display: none;
     }
     nav h1{
+      text-align: center;
+      width: 100%;
+    }
+    header h1 {
       text-align: center;
       width: 100%;
     }
@@ -173,10 +187,57 @@ footer h1{
     .aboutbox {
       background-color: #eeeeee;
     }
+
+    .batcatimg.mobile {
+      display: block;
+      text-align: center;
+      position: relative;
+    }
+
+    .batcatimg.mobile img {
+       width: 100%;
+    }
+
+    .float-cat {
+      z-index: 10;
+      position: absolute;
+      max-height: 400px;
+      max-width: 250px;
+      margin: 0 30%;
+      bottom: 0;
+    }
+
+    .hero-text {
+      z-index: 5;
+      width: 300px;
+      margin: 0 25%;
+      text-transform: uppercase;
+      color: white;
+      position: absolute;
+      top: 23%;
+    }
+
+    .hero-text h3 {
+      margin: 0;
+      font: Bold 1em 'PT Sans Narrow', sans-serif;
+      font-size: 20px;
+      line-height: 1em;
+    }
+
+    .hero-text h1 {
+      font-size: 50px;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .batcatimg.desktop {
+      display: none;
+    }
 }
 
 /* On devices wider than 660px */
-@media(min-width: 660px) {
+@media(min-width: 750px) {
 }
 
 /* On devices wider than 940px */
