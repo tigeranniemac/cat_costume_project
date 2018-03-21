@@ -3,8 +3,26 @@ body {
 
 }
 
-nav{
+header {
 
+}
+header h1{
+  display: inline-block;
+  width: 75%;
+  text-align: left;
+  padding: 5px 15px 5px 15px;
+  font-size: 1.5em;
+}
+header nav{
+
+}
+header nav p{
+  display: inline;
+  text-align: right;
+  padding: 15px;
+  margin: 10px;
+  font: .9em 'PT Sans', sans-serif;
+  line-height: 0;
 }
 
 h1{
@@ -26,29 +44,12 @@ h3{
   text-align: center;
 }
 
-header h1{
-  display: inline-block;
-  width: 75%;
-  text-align: left;
-  padding: 5px 15px 5px 15px;
-  font-size: 1.5em;
-}
-
 p{
   font: .875em 'PT Serif', serif;
   color: #323232;
   line-height: 1.75em;
   padding: 0 30px 30px 30px;
   text-align: left;
-}
-
-nav p{
-  display: inline;
-  text-align: right;
-  padding: 15px;
-  margin: 10px;
-  font: .9em 'PT Sans', sans-serif;
-  line-height: 0;
 }
 
 .batcatimg {
